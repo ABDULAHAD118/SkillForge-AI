@@ -13,7 +13,6 @@ const Provider = ({ children }: { children: ReactNode }) => {
       name: user?.fullName,
       email: user?.primaryEmailAddress?.emailAddress,
     });
-    console.log(result.data);
     setUserDetail(result.data);
   };
 
